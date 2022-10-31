@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS book;
+CREATE TABLE book
+(
+    id    BIGINT NOT NULL AUTO_INCREMENT,
+    name  VARCHAR(50),
+    price INT,
+    PRIMARY KEY (id)
+);

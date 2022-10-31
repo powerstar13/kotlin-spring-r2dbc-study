@@ -1,0 +1,11 @@
+### 등록
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "name": "토비의 스프링",
+  "price": 10000
+}
+
+### 조회
+GET http://localhost:8080/books/토비의 스프링
